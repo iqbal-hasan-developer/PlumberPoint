@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumber Point</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+   <!-- Header area -->
+   <section class="header fixed w-full h-auto bg-white z-1000">
+    <header class="header w-full shadow py-2 px-5">
+        <div class="nav-container w-full max-w-[1440px] mx-auto">
+            <div class="navbar w-full h-15 bg-[#fff] py-3 flex justify-between items-center">
+                <div class="logo">
+                    <img src="assets/Images/logo.png" alt="logo">
+                </div>
+
+                <!-- Mobile menu -->
+                <div class="mobile-menu">
+                    <button id="open-menu-btn"><i class='bx bx-menu'></i></button>
+                </div>
+    
+                <div class="menu flex justify-between items-center gap-20">
+                    <button id="close-menu-btn"><i class='bx bx-x'></i></button>
+                    <ul class="flex justify-between items-center gap-10 font-medium text-[14px] text-[#222222]">
+                        <li class="li relative"><a class="nav-links" href="home.html">Home</a></li>
+                        <li class="li relative"><a class="nav-links" href="about.html">About us</a></li>
+                        <li class="li relative"><a class="nav-links" href="services.html">Services</a></li>
+                        <li class="li relative"><a class="nav-links" href="projects.html">Projects</a></li>
+                        <li class="li relative"><a class="nav-links" href="blog.html">Blog</a></li>
+                        <li class="li relative"><a class="nav-links" href="contact.html">Contact</a></li>
+                    </ul>
+    
+                    <button class="btn group relative overflow-hidden bg-[#DD3142] font-bold text-[14px] px-2 py-3 rounded-md uppercase cursor-pointer border border-transparent hover:border-[#DD3142]">
+                        <span class="btn-span-1 relative z-20 text-white transition-colors duration-500 ease-in-out group-hover:text-[#222222]">Request a call back</span>
+                        <span class="btn-span-2 absolute left-0 top-0 h-full w-0 bg-white transition-all duration-500 ease-in-out group-hover:w-full z-10"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+</section>
+
+    <!-- Our Blog -->
+<section class="lg:mb-10">
+    <div class="conainer w-full max-w-[1440px] mx-auto pt-20">
+        <div class="wrapper flex flex-col lg:flex-row items-center lg:justify-between max-w-[1440px] mx-auto">
+            <div class="text-area w-full lg:max-w-[45%] text-center lg:text-start px-5 lg:px-0 mb-10 lg:mb-0">
+                <h1 class="text-[#000000] font-bold text-4xl lg:text-[2.8rem] mb-2 lg:mb-5">Our Blogs</h1>
+                <p class="text-sm font-normal lg:pr-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+
+            <div class="image-area w-full lg:max-w-[55%]">
+                <img class="w-full lg:h-[255px] object-cover" src="assets/Images/image 4 (2).jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>    
+
+<!-- blog banner -->
+<section class="mt-5 lg:mt-10">
+    <div class="container w-full max-w-[1440px] mx-auto lg:py-5">
+        <div class="wrapper flex flex-col-reverse lg:flex-row items-center justify-between max-w-[1440px] mx-auto gap-10">
+            <div class="left-image w-full h-full">
+                <img class="w-full h-full object-cover" src="assets/Images/bg (1).jpg" alt="">
+            </div>
+
+            <div class="right-text w-full lg:max-w-[50%] px-10">
+                <h2 class="text-3xl lg:text-4xl font-semibold text-[#000000] mb-5">Lorem Ipsum is simply dummy text.</h2>
+                <p class="text-base text-[#000000] font-normal mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br> <br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic <br> <br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+
+                <a class="underline text-[#DD3142]" href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<!-- blogs -->
+<section class="mt-10 lg:mt-20 mb-10 lg:mb-20">
+    <div class="blog-container w-full max-w-[1440px] mx-auto py-5">
+        <div class="blog-wrapper flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-10 flex-wrap">
+            <div class="blog-box max-w-[332px]">
+                <div class="blog-img w-full h-full mb-2">
+                    <img src="assets/Images/Mask Group.png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                    <p class="text-sm text-[#000000] font-normal mb-4">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+
+                    <a class="underline text-[#DD3142]" href="#">learn More</a>
+                </div>
+            </div>
+
+            <div class="blog-box max-w-[332px]">
+                <div class="blog-img w-full h-full mb-2">
+                    <img src="assets/Images/Mask Group (1).png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">All you want to know about industrial laws</h2>
+                    <p class="text-sm text-[#000000] font-normal mb-4">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+
+                    <a class="underline text-[#DD3142]" href="#">learn More</a>
+                </div>
+            </div>
+
+            <div class="blog-box max-w-[332px]">
+                <div class="blog-img w-full h-full mb-2">
+                    <img src="assets/Images/Mask Group (2).png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                    <p class="text-sm text-[#000000] font-normal mb-4">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+
+                    <a class="underline text-[#DD3142]" href="#">learn More</a>
+                </div>
+            </div>
+
+            <div class="blog-box max-w-[332px]">
+                <div class="blog-img w-full h-full mb-2">
+                    <img src="assets/Images/Mask Group (1).png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                    <p class="text-sm text-[#000000] font-normal mb-4">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+
+                    <a class="underline text-[#DD3142]" href="#">learn More</a>
+                </div>
+            </div>
+
+            <div class="blog-box max-w-[332px]">
+                <div class="blog-img w-full h-full mb-2">
+                    <img src="assets/Images/Mask Group (2).png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">All you want to know about industrial laws</h2>
+                    <p class="text-sm text-[#000000] font-normal mb-4">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+
+                    <a class="underline text-[#DD3142]" href="#">learn More</a>
+                </div>
+            </div>
+
+            <div class="blog-box max-w-[332px]">
+                <div class="blog-img w-full h-full mb-2">
+                    <img src="assets/Images/Mask Group.png" alt="">
+                </div>
+                <div class="blog-text">
+                    <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                    <p class="text-sm text-[#000000] font-normal mb-4">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+
+                    <a class="underline text-[#DD3142]" href="#">learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+
+<!-- Comercial Services -->
+<section class="flex justify-center mb-10 lg:mb-20">
+    <div class="container flex max-w-[1440px] mx-auto relative px-5 lg:px-0">
+        <div class="bg-white w-[20%]"></div>
+        <div class="bg-[#DD3142] w-[80%] lg:h-97.5 flex justify-center items-center text-center lg:text-start pl-30 lg:pl-94 lg:pr-10">
+            <div class="cta-text text-white py-5 lg:py-0">
+                <h1 class="text-2xl md:text-4xl lg:text-[2.8rem] font-bold mb-3.5 lg:mb-8">Commercial Service</h1>
+                <p class="text-sm lg:text-base font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            </div>
+        </div>
+
+       <div class="cta-image absolute top-[36px] lg:left-[-10px] max-w-[200px] h-[150px] lg:h-auto lg:max-w-full">
+        <img class="w-full h-full object-cover" src="assets/Images/bg.jpg" alt="">
+       </div> 
+    </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial mb-5 lg:h-80">
+    <div class="swiper mySwiper h-full">
+        <div class="swiper-wrapper h-full mb-3 lg:mb-0">
+           <div class="swiper-slide bg-[#000000]/70 bg-blend-overlay flex justify-center items-center mx-auto">
+            <div class="text-container text-center py-2 lg:py-5 max-w-[930px]">
+                <h1 class="text-[#EEFF06] text-2xl lg:text-[1.9rem] mb-2 lg:mb-5 font-bold">Testimonial</h1>
+                <p class="text-sm md:text-base lg:text-[1.3rem] text-white font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3 class="text-base lg:text-2xl font-bold text-white mt-5">John Doe</h3>
+            </div>
+           </div> 
+
+           <div class="swiper-slide bg-[#000000]/70 bg-blend-overlay flex justify-center items-center mx-auto">
+            <div class="text-container text-center py-2 lg:py-5 max-w-[930px]">
+                <h1 class="text-[#EEFF06] text-2xl lg:text-[1.9rem] mb-2 lg:mb-5 font-bold">Testimonial</h1>
+                <p class="text-sm md:text-base lg:text-[1.3rem] text-white font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3 class="text-base lg:text-2xl font-bold text-white mt-5">John Doe</h3>
+            </div>
+           </div> 
+
+           <div class="swiper-slide bg-[#000000]/70 bg-blend-overlay flex justify-center items-center mx-auto">
+            <div class="text-container text-center py-2 lg:py-5 max-w-[930px]">
+                <h1 class="text-[#EEFF06] text-2xl lg:text-[1.9rem] mb-2 lg:mb-5 font-bold">Testimonial</h1>
+                <p class="text-sm md:text-base lg:text-[1.3rem] text-white font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3 class="text-base lg:text-2xl font-bold text-white mt-5">John Doe</h3>
+            </div>
+           </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+</section> 
+
+<!-- Blog section -->
+<section class="blog px-10 lg:px-20 py-2 lg:py-10 w-full bg-white mx-auto">
+    <div class="container max-w-[1440px] mx-auto">
+        <h1 class="text-2xl text-center lg:text-start lg:text-[1.9rem] font-medium text-[#0E0E0E] uppercase mb-5">our recent blogs</h1>
+
+       <div class="blog-wrapper flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-center gap-10 lg:gap-20">
+        <div class="blog-box max-w-[332px]">
+            <div class="blog-image mb-2">
+                <img src="assets/Images/Mask Group.jpg" alt="">
+            </div>
+            <div class="blog-text">
+                <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                <p class="text-sm text-[#6D6D6D]">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+            </div>
+        </div>
+
+        <div class="blog-box max-w-[332px]">
+            <div class="blog-image mb-2">
+                <img src="assets/Images/Mask Group (3).jpg" alt="">
+            </div>
+            <div class="blog-text">
+                <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                <p class="text-sm text-[#6D6D6D]">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+            </div>
+        </div>
+
+        <div class="blog-box max-w-[332px]">
+            <div class="blog-image mb-2">
+                <img class="w-full h-full object-cover" src="assets/Images/Rectangle 172.png" alt="">
+            </div>
+            <div class="blog-text">
+                <h2 class="text-[1.2rem] font-semibold text-[#000000] mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</h2>
+                <p class="text-sm text-[#6D6D6D]">Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+            </div>
+        </div>
+       </div> 
+    </div>
+</section> 
+
+<!-- Footer section -->
+<footer class="footer mt-5">
+  <div class="footer-container bg-[#000000] px-5 lg:px-10 pt-10 lg:pt-20">
+    <div class="footer-wrapper grid grid-cols-1 justify-center lg:justify-between lg:grid-cols-4 gap-5 lg:gap-10 max-w-[1440px] mx-auto justify-items-center lg:justify-items-start">
+
+        <div class="footer-box flex flex-col items-center lg:items-start text-center lg:text-start">
+            <div class="footer-logo lg:mb-2.5">
+                <img src="assets/Images/logo (1).png" alt="">
+            </div>
+        <div class="footer-text font-normal text-sm text-white mb-5">
+            <p class="mt-10">Lore Issue is simply dummy text of the printing and typesetting industry. Lore Issue has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+        <div class="footer-social [&>a]:text-[#DD3142] [&>a]:text-2xl [&>a]:mr-5">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        </div>
+        <!-- Our services -->
+        <div class="footer-box text-center lg:text-start">
+            <h2 class="text-[#DD3142] uppercase font-semibold text-2xl lg:text-[1.3rem] lg:mb-10">Our services</h2>
+            <div class="service-links list-none text-white font-normal text-base lg:text-sm mt-3 lg:mt-5 [&>li]:mb-2.5">
+                <li>Plumber Service</li>
+                <li>Bathroom Plumbing Service</li>
+                <li>Kitchen Plumbing Service</li>
+                <li>Roof Plumbing Service</li>
+                <li>Bathroom Plumbing Service</li>
+                <li>Kitchen Plumbing Service</li>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div class="footer-box text-center lg:text-start">
+            <h2 class="text-[#DD3142] uppercase font-semibold text-2xl lg:text-[1.3rem] mb-5 lg:mb-10">Contact</h2>
+            <div class="contact-links text-white font-normal text-base lg:text-sm mt-2 lg:mt-5 mb-5 lg:mb-8 [&>li]:mb-2.5 list-none">
+                <li>+1800-9938-2839</li>
+                <li>support@plumberpoint.com</li>
+            </div>
+            <div class="contact-links text-white font-normal text-sm [&>li]:mb-2.5 mb-8 list-none">
+                <li>A-507 Mandoli</li>
+                <li>Dhaka, Bangladesh</li>
+            </div>
+            <div class="contact-links text-white [&>li]:mb-2.5 font-normal text-sm mt-5 list-none">
+                <li>Mon-Sat 9.00-15:00</li>
+                <li>Sunday CLOSED</li>
+            </div>
+        </div>
+        <!-- Recent post -->
+        <div class="footer-box overflow-hidden flex flex-col items-center lg:items-start">
+            <h2 class="text-[#DD3142] uppercase font-semibold text-2xl lg:text-[1.3rem] mb-2 lg:mb-5">Recent Post</h2>
+            <div class="recent-post w-[410px] flex items-center justify-between lg:gap-2 lg:mb-2 lg:mr-5">
+                <img class="" src="assets/Images/Rectangle 172 (2).png" alt="">
+
+                <div class="post-text text-white">
+                    <h3 class="text-sm">Sewer Line Repair</h3>
+                    <p class="text-[12px] text-[#6D6D6D]">Lore Issue . Simply dummy text . The printing and typesetting industry. Lore Issue has been the industry'.</p>
+                </div>
+            </div>
+
+            <div class="recent-post w-[410px] flex items-center justify-between lg:gap-2 lg:mb-2">
+                <img class="" src="assets/Images/Rectangle 172 (2).png" alt="">
+
+                <div class="post-text text-white">
+                    <h3 class="text-sm">Sewer Line Repair</h3>
+                    <p class="text-[12px] text-[#6D6D6D]">Lore Issue . Simply dummy text . The printing and typesetting industry. Lore Issue has been the industry'.</p>
+                </div>
+            </div>
+
+            <div class="recent-post w-[410px] flex items-center justify-between lg:gap-2 lg:mb-2">
+                <img class="" src="assets/Images/Rectangle 172 (2).png" alt="">
+
+                <div class="post-text text-white">
+                    <h3 class="text-sm">Sewer Line Repair</h3>
+                    <p class="text-[12px] text-[#6D6D6D]">Lore Issue . Simply dummy text . The printing and typesetting industry. Lore Issue has been the industry'.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="border-1 border-white"></div>
+        <div class="footer-credit max-w-[1440px] flex justify-between items-center text-[#DD3142] py-2.5 mt-2 mx-auto">
+            <p class="text-[12px] lg:text-sm font-normal">© 2024 Plumber Point. All Rights Reserved.</p>
+
+            <div class="flex text-[#DD3142] lg:[&>p]:mr-5 [&>p]:cursor-pointer [&>p]:hover:underline [&>p]:text-[12px] lg:[&>p]:text-sm [&>p]:font-normal">
+                <p>Term of Services</p>
+                <p>Privacy & policy</p>
+            </div>
+        </div>
+    </div>
+</footer> 
+
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="main.js"></script>
+</body>
+</html>        
